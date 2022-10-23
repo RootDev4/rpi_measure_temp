@@ -1,0 +1,29 @@
+{
+  "name": "rpi_temperature",
+  "version": "1.0.0",
+  "description": "Measures the CPU and GPU temperature of a Raspberry Pi in degrees Celsius or Fahrenheit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RootDev4/rpi_temperature.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "raspberrypi",
+    "rpi",
+    "temperature",
+    "system",
+    "cpu",
+    "gpu"
+  ],
+  "author": "RootDev4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RootDev4/rpi_temperature/issues"
+  },
+  "homepage": "https://github.com/RootDev4/rpi_temperature#readme"
+}
