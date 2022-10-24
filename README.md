@@ -4,7 +4,7 @@ Measure the CPU and GPU temperature of a Raspberry Pi in degrees Celsius or Fahr
 ## Installation
 
 ```
-npm install rpi_temperature --save
+npm install rpi_measure_temp --save
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ All methods are promise-based and hence await'able and then'able.
 
 ### Await
 ```javascript
-const { measureCPU, measureGPU } = require('rpi_temperature');
+const { measureCPU, measureGPU } = require('rpi_measure_temp');
 
 (async () => {
     console.log('CPU Temp:', await measureCPU())
@@ -22,7 +22,7 @@ const { measureCPU, measureGPU } = require('rpi_temperature');
 
 ### Then/Catch
 ```javascript
-const { measureCPU } = require('rpi_temperature')
+const { measureCPU } = require('rpi_measure_temp')
 
 measureCPU().then(result => {
     console.log(result)
